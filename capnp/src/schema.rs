@@ -11,7 +11,7 @@ use crate::Result;
 /// A struct node, with generics applied.
 #[derive(Clone, Copy)]
 pub struct StructSchema {
-    pub(crate) raw: RawBrandedStructSchema,
+    pub raw: RawBrandedStructSchema,
     pub(crate) proto: node::Reader<'static>,
 }
 
